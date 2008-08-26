@@ -1,0 +1,242 @@
+-------------------------------------------------------------------------------
+Test set: jsunit
+-------------------------------------------------------------------------------
+Tests run: 148, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 52.218 sec <<< FAILURE!
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/BOSHTransportTest.html:testWrite_RID  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.Exception: Error message is: "[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXMLHttpRequest.open]" nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)" location: "JS frame :: javascript: eval(__firebugTemp__); :: anonymous :: line 1" data: no]"
+	at org.codehaus.mojo.javascript.JsUnitTestCase.run(JsUnitTestCase.java:103)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.codehaus.mojo.javascript.JsUnitMojo.runJsUnitTests(JsUnitMojo.java:217)
+	at org.codehaus.mojo.javascript.JsUnitMojo.execute(JsUnitMojo.java:172)
+	at org.apache.maven.plugin.DefaultPluginManager.executeMojo(DefaultPluginManager.java:451)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoals(DefaultLifecycleExecutor.java:558)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalWithLifecycle(DefaultLifecycleExecutor.java:499)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoal(DefaultLifecycleExecutor.java:478)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalAndHandleFailures(DefaultLifecycleExecutor.java:330)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeTaskSegments(DefaultLifecycleExecutor.java:291)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:142)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:336)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:129)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.classworlds.Launcher.launchEnhanced(Launcher.java:315)
+	at org.codehaus.classworlds.Launcher.launch(Launcher.java:255)
+	at org.codehaus.classworlds.Launcher.mainWithExitCode(Launcher.java:430)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:375)
+
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/BOSHTransportTest.html:testWriteRaw  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Error message is: "[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXMLHttpRequest.open]" nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)" location: "JS frame :: javascript: eval(__firebugTemp__); :: anonymous :: line 1" data: no]"
+	at org.codehaus.mojo.javascript.JsUnitTestCase.run(JsUnitTestCase.java:103)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.codehaus.mojo.javascript.JsUnitMojo.runJsUnitTests(JsUnitMojo.java:217)
+	at org.codehaus.mojo.javascript.JsUnitMojo.execute(JsUnitMojo.java:172)
+	at org.apache.maven.plugin.DefaultPluginManager.executeMojo(DefaultPluginManager.java:451)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoals(DefaultLifecycleExecutor.java:558)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalWithLifecycle(DefaultLifecycleExecutor.java:499)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoal(DefaultLifecycleExecutor.java:478)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalAndHandleFailures(DefaultLifecycleExecutor.java:330)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeTaskSegments(DefaultLifecycleExecutor.java:291)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:142)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:336)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:129)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.classworlds.Launcher.launchEnhanced(Launcher.java:315)
+	at org.codehaus.classworlds.Launcher.launch(Launcher.java:255)
+	at org.codehaus.classworlds.Launcher.mainWithExitCode(Launcher.java:430)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:375)
+
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/BOSHTransportTest.html:testBeginSession  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Error message is: "[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXMLHttpRequest.open]" nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)" location: "JS frame :: javascript: eval(__firebugTemp__); :: anonymous :: line 1" data: no]"
+	at org.codehaus.mojo.javascript.JsUnitTestCase.run(JsUnitTestCase.java:103)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.codehaus.mojo.javascript.JsUnitMojo.runJsUnitTests(JsUnitMojo.java:217)
+	at org.codehaus.mojo.javascript.JsUnitMojo.execute(JsUnitMojo.java:172)
+	at org.apache.maven.plugin.DefaultPluginManager.executeMojo(DefaultPluginManager.java:451)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoals(DefaultLifecycleExecutor.java:558)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalWithLifecycle(DefaultLifecycleExecutor.java:499)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoal(DefaultLifecycleExecutor.java:478)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalAndHandleFailures(DefaultLifecycleExecutor.java:330)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeTaskSegments(DefaultLifecycleExecutor.java:291)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:142)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:336)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:129)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.classworlds.Launcher.launchEnhanced(Launcher.java:315)
+	at org.codehaus.classworlds.Launcher.launch(Launcher.java:255)
+	at org.codehaus.classworlds.Launcher.mainWithExitCode(Launcher.java:430)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:375)
+
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCloseChat_ChatObj  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCloseChat_ChatMan  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testFindBestChat_Jid  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testFindBestChat_Thread  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testFindBestChat_None  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testGetUserChat  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testGetThreadChat  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testReceiveMessage_Event_New  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testReceiveMessage_Event_Two  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testReceiveMessage_Event  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testSendMessage_Text  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testSendMessage_MessageStanza  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCreateMessage  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCreateChatWithThread  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCreateChat_DifferentThreads  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCreateChat_JidObject  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testCreateChat  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testMessageThreadFilter_False  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ChatManagerTest.html:testMessageThreadFilter_True  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DelegateManagerTest.html:testRemoveDelegate  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DelegateManagerTest.html:testArguments  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DelegateManagerTest.html:testAddDelegate_Many  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DelegateManagerTest.html:testAddDelegate_One_Scope  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DelegateManagerTest.html:testAddDelegate_One  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testNamespacePrefix  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testNamespaceUri  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testParentDoc  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testChildNodesAndTextContent  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testTextContent  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testChildNodes  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testAttributes  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomBuilderTest.html:testElementName  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/DomHacksTest.html:testImportNode  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventListenerManagerTest.html:testFireArgs  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventListenerManagerTest.html:testFire  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventListenerManagerTest.html:testRemoveListener  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventListenerManagerTest.html:testRemoveListener_OldSignature  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventListenerManagerTest.html:testAddListener_Multiple  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventListenerManagerTest.html:testAddListener_One  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testAddListenerSingleOptionSingle  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testRemoveListenerMultiple  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testRemoveListenerSingle  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testAddListenerMultipleScopeInline  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testAddListenerMultiple  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testAddListenerSingleScope  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testAddListenerSingleArg  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/EventProviderTest.html:testAddListenerSingle  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testPacket_RemoveExtension  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testPacket_AddExtension_OverExisting  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testPacket_AddExtension  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testPacket_GetExtensions_Unknown  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testPacket_GetExtensions  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testPacket_GetExtension  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testChatState_Multiple  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testChatState_Single  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testMessageEvent_Empty  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testMessageEvent_Multiple  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/ExtensionProviderTest.html:testMessageEvent_Single  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testEquals_Case  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testEquals_WithoutResource  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testWithoutResource  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testRemoveResource  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testEquals  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testToString_NodeHostResource  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testToString_NodeHost  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testToString_HostOnly  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testValidJid  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testConstructor_Jid  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/JidTest.html:testConstructor_String  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/KeySequenceTest.html:testIsLastKey  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/KeySequenceTest.html:testIsFirstKey  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/KeySequenceTest.html:testGetNextKey  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/KeySequenceTest.html:testGetSize  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/LangTest.html:testFunctionPrototypeBind  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/LangTest.html:testBindArguments  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/LangTest.html:testBind  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/Md5SaslTest.html:testCheckResponseFalse  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/Md5SaslTest.html:testCheckResponseTrue  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/Md5SaslTest.html:testComputeChallengeResponse  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/Md5SaslTest.html:testDeserializeFieldsUnquoted  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/Md5SaslTest.html:testDeserializeFields  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/Md5SaslTest.html:testSerializeFields  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/MUC_FilterTest.html:testMucPresenceFilter_Occupant_False  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/MUC_FilterTest.html:testMucPresenceFilter_Occupant_True  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/MUC_FilterTest.html:testMucPresenceFilter_Room_False  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/MUC_FilterTest.html:testMucPresenceFilter_Room_True  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/MUC_FilterTest.html:testMucPresenceFilter_NoRoom_False_WrongNS  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/MUC_FilterTest.html:testMucPresenceFilter_NoRoom_True  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketFilterTest.html:testPacketIdFilter_False  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketFilterTest.html:testPacketIdFilter_True  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketFilterTest.html:testPacketClassFilter_False  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketFilterTest.html:testPacketClassFilter_True  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketFilterTest.html:testRawPacketFilter  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testToFromJid  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreatePresence  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreateMessageThread_Multiple  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreateMessageThread  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreateMessageSubject  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreateMessageDomBody  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreateMessageTextBody  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreateIQ  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketHelperTest.html:testCreatePacket  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testHandleResponseRaw  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testHandleResponseStanza  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testHandleResponse  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testAddMultiplePacketListenerWithErrors  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testRemovePacketListener  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testAddPacketListenerNoFilter  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testAddPacketListenerNoMatch  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PacketReaderTest.html:testAddPacketListenerMatch  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testSetInvalidPresenceType  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceChangeOnDifferentResources  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testEventChange  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceRemoveAll  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceRemoveSingleResource  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceGetBestShowXaGTDnd  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceGetBestShowAwayGTXa  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceGetBestShowNormalGTAway  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceGetBestShowChatGTNormal  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceGetBestPriority  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceGetBestType  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceChange  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/PresenceManagerTest.html:testPresenceAdd  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testSubSyncPacketListener  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testPacketListener  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testEventDeleteEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testEventUpdateEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testEventAddEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testRemoveEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testGetGroupsFromUnfiledEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testGetUnfiledContactsGroup  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testAddEntryNoGroup  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testGetEntryFromGroup  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testGetGroupsFromEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testGetGroup  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testGetGroups  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testUpdate_IgnoresResource  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/RosterItemManagerTest.html:testAddEntry  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testPresenceProvider  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testMessageProvider  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testIQProvider  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testBaseProvider  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testPriority  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testRegister  Time elapsed: 0 sec
+file:///c:/Documents%20and%20Settings/Harlan/xmpp4js/target/test-scripts/StanzaProviderTest.html:testNoRegisteredProviders  Time elapsed: 0 sec

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="TEST-BasicAuthRegTest" errors="0" failures="0" name="JsUnitTestCase" tests="0" time="0.453"><properties><property name="JsUnitVersion" value="2.1" /><property name="userAgent" value="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.16) Gecko/20080702 Firefox/2.0.0.16" /><property name="remoteAddress" value="127.0.0.1" /><property name="baseURL" value="file:///c:/Documents and Settings/Harlan/xmpp4js/target/test-scripts/BasicAuthRegTest.html" /></properties></testsuite>
